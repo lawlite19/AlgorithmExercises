@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
+//每一趟将最大的元素移到最后的位置，然后再移动前面未排序部分，以此类推 
 void BubbleSort(int *a,int n)
 {
 	int i,j,temp;
 	for(i=0;i<n;i++){
-		for(j=0;j<n-i-1;j++){
+		for(j=0;j<n-i-1;j++){//因为后面比较的是a[j]和a[j+1],j会+1，所以是j<n-i-1 
 			if(a[j]>a[j+1]){
 				temp=a[j];
 				a[j]=a[j+1];
@@ -26,6 +27,7 @@ int main()
 	//排序 
 	BubbleSort(a,n);
 	//输出 
+	cout<<"n="<<n<<endl; 
 	cout<<"排序结果："<<endl;
 	for(i=0;i<n;i++){
 		cout<<a[i]<<" ";
