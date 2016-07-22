@@ -1,6 +1,6 @@
 /*
 改进冒泡排序1，设置pos记录每趟排序最后交换的位置，因为后面的数据如果没有交换，
-说明数据时排好序的。 
+说明数据是排好序的。 
 */
 #include <iostream>
 using namespace std;
