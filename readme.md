@@ -10,3 +10,4 @@
 
 ### 2. 插入排序
  - [直接插入排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/2.%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/%E7%9B%B4%E6%8E%A5%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.cpp)
+- [直接插入排序递归版](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/2.%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/%E7%9B%B4%E6%8E%A5%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E9%80%92%E5%BD%92%E7%89%88.cpp)
