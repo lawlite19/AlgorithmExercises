@@ -14,3 +14,4 @@
  - [希尔排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/2.%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F.cpp)
 
 ### 3. 选择排序
+ - [简单选择排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/3.%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/%E7%AE%80%E5%8D%95%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.cpp)
