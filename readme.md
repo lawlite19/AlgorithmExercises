@@ -15,3 +15,4 @@
 
 ### 3. 选择排序
  - [简单选择排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/3.%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/%E7%AE%80%E5%8D%95%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.cpp)
+ - [堆排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/3.%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/%E5%A0%86%E6%8E%92%E5%BA%8F.cpp)
