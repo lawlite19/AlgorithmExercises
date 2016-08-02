@@ -17,3 +17,6 @@
  - [简单选择排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/3.%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/%E7%AE%80%E5%8D%95%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.cpp)
 - [二元选择排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/3.%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/%E7%AE%80%E5%8D%95%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E6%94%B9%E8%BF%9B.cpp)
  - [堆排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/3.%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/%E5%A0%86%E6%8E%92%E5%BA%8F.cpp)
+ 
+### 4. 归并排序
+ - [二路归并排序递归版](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/4.%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/%E4%BA%8C%E8%B7%AF%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F_%E9%80%92%E5%BD%92%E7%89%88.cpp)
