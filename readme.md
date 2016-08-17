@@ -32,3 +32,6 @@
  - [字符串包含判断_排序](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/2.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB_%E6%8E%92%E5%BA%8F%E6%B3%95.cpp)
  - [字符串包含判断_素数乘积](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/2.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD_%E7%B4%A0%E6%95%B0.cpp)
  - [字符串包含判断_哈希](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/2.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD_%E5%93%88%E5%B8%8C.cpp)
+
+### 3. 回文  
+ - [回文判断](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/3.%E5%9B%9E%E6%96%87%E5%88%A4%E6%96%AD/%E5%9B%9E%E6%96%87%E5%88%A4%E6%96%AD.cpp)
