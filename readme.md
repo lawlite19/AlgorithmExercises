@@ -26,3 +26,6 @@
 ### 1. 字符串旋转  
 - [字符串旋转_暴力法](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/1.%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%8B%E8%BD%AC/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%8B%E8%BD%AC_%E6%9A%B4%E5%8A%9B%E6%B3%95.cpp)
 - [字符串旋转_三步翻转法](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/1.%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%8B%E8%BD%AC/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%8B%E8%BD%AC_%E4%B8%89%E6%AD%A5%E7%BF%BB%E8%BD%AC%E6%B3%95.cpp)
+
+### 1. 字符串包含  
+ - [字符串包含判断_遍历](https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/2.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%85%E5%90%AB%E5%88%A4%E6%96%AD_%E6%9A%B4%E5%8A%9B%E6%B3%95.cpp)
