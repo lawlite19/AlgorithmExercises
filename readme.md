@@ -69,8 +69,6 @@
 [24]:
 
 
-[1001]:
-[1002]:
-[1003]:
+[1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Manacher.md
 
 
