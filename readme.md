@@ -39,7 +39,10 @@
 ### 4. 最长回文子串长度  
  - [最长回文子串长度_一般解法][21]
  - [最长回文子串长度_Manacher][22]  ★★★   
-- [算法说明][1001]
+- [算法说明][1001]    
+
+### 5. 全排列
+ - [全排列_递归][23] 
 
 
 
@@ -65,8 +68,8 @@
 [20]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/3.%E5%9B%9E%E6%96%87%E5%88%A4%E6%96%AD/%E5%9B%9E%E6%96%87%E5%88%A4%E6%96%AD.cpp
 [21]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/4.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2_%E4%B8%80%E8%88%AC%E8%A7%A3%E6%B3%95.cpp
 [22]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/4.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2_Manacher.cpp
-[23]:
-[24]:
+[23]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/5.%E5%85%A8%E6%8E%92%E5%88%97/%E5%85%A8%E6%8E%92%E5%88%97_%E9%80%92%E5%BD%92.cpp
+
 
 
 [1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Manacher.md
