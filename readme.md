@@ -84,7 +84,7 @@
 [2.6.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/6.%E5%8F%98%E5%BD%A2%E8%AF%8D/%E5%8F%98%E5%BD%A2%E8%AF%8D%E5%88%A4%E6%96%AD.cpp
 
 
-[4.1.1]:https://github.com/lawlite19/AlgorithmExercises/tree/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E7%88%AC%E6%A5%BC%E6%A2%AF
+[4.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E7%88%AC%E6%A5%BC%E6%A2%AF/%E7%88%AC%E6%A5%BC%E6%A2%AF%E9%97%AE%E9%A2%98_%E9%80%92%E5%BD%92.cpp
 
 [1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Manacher.md
 
