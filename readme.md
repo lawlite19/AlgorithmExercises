@@ -55,6 +55,7 @@
 ## 四、 递归和动态规划
 ### 1. 爬楼梯
  - [爬楼梯_递归][4.1.1]
+ - [爬楼梯_dp][4.1.2]
 
 
 [1.1.1]:https://github.com/lawlite19/AlgorithmExerises/blob/master/%E4%B8%80%E3%80%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/1.%E4%BA%A4%E6%8D%A2%E6%8E%92%E5%BA%8F/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.cpp
@@ -86,6 +87,7 @@
 
 
 [4.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E7%88%AC%E6%A5%BC%E6%A2%AF/%E7%88%AC%E6%A5%BC%E6%A2%AF%E9%97%AE%E9%A2%98_%E9%80%92%E5%BD%92.cpp
+[4.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/1.爬楼梯/爬楼梯问题_dp.cpp
 
 [1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Manacher.md
 
