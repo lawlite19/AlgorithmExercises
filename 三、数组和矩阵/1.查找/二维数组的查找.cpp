@@ -35,7 +35,7 @@ int main()
 		cout<<endl; 
 	}
 	//求行数和列数
-	rowCount=sizeof(a)/sizeof(a[0]);
+	rowCount=sizeof(a)/sizeof(a[0]);//sizeof(a)为所有元素字节数，sizeof(a[0])为一行元素字节数 
 	colCount=sizeof(a[0])/sizeof(int);
 	
 	cout<<endl<<"请输入一个数:"<<endl; 
