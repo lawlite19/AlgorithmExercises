@@ -63,7 +63,7 @@ bool allPermutation(char *s,int len)
 	if(i<0)//所有的都已经找到，则返回false 
 		return false;
 	
-	for(k=len-1;(k>i) && (s[k]<=s[i]);--k);//从后向前找到第一个比i位置小的数 
+	for(k=len-1;(k>i) && (s[k]<=s[i]);--k);//从后向前找到第一个比i位置大的数 
 	
 	swap(s+i,s+k);//交换两位置的数 
 	reverse(s,i+1,len-1);//将i位置后面的数逆序 
