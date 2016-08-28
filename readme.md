@@ -53,6 +53,9 @@
 ### 7. 字符串中数字串之和
  - [字符串中数字串之和][2.7.1] ★  
 
+### 8. 去除字符串中连续K个0串
+ - [去除字符串中连续K个0串][2.8.1]
+
 ## 三、 数组和矩阵
 ### 1. 二维数组查找  
  - [二维数组查找][3.1.1]
@@ -90,6 +93,8 @@
 [2.5.3]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/5.%E5%85%A8%E6%8E%92%E5%88%97/%E5%AD%97%E5%85%B8%E5%BA%8F%E5%85%A8%E6%8E%92%E5%88%97.cpp
 [2.6.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/6.%E5%8F%98%E5%BD%A2%E8%AF%8D/%E5%8F%98%E5%BD%A2%E8%AF%8D%E5%88%A4%E6%96%AD.cpp
 [2.7.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/7.%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%95%B0%E5%AD%97%E4%B8%B2%E6%B1%82%E5%92%8C/%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%95%B0%E5%AD%97%E4%B8%B2%E6%B1%82%E5%92%8C.cpp
+[2.8.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%8C%E3%80%81%E5%AD%97%E7%AC%A6%E4%B8%B2/8.%E5%8E%BB%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E8%BF%9E%E7%BB%ADK%E4%B8%AA0%E5%AD%90%E4%B8%B2/%E5%8E%BB%E9%99%A4%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E8%BF%9E%E7%BB%ADK%E4%B8%AA0%E5%AD%90%E4%B8%B2.cpp
+
 
 [3.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%89%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E7%9F%A9%E9%98%B5/1.%E6%9F%A5%E6%89%BE/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%9F%A5%E6%89%BE.cpp
 
