@@ -48,7 +48,7 @@ int MyStack::pop()
 		
 	return value;
 }
-
+//得到当前栈中最小值 
 int MyStack::getMin()
 {
 	if(dataStack.empty())
