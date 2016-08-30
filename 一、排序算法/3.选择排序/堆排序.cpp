@@ -25,7 +25,7 @@ void adjustHeap(int *a,int i,int len)
 		}
 		else//若是节点大于其孩子节点，直接退出循环 
 			break;
-		a[i]=temp;//将节点放在调整的孩子节点上 
+		a[i]=temp;//将节点放在调整的孩子节点上（因为上面i调整为孩子节点了，若是没有调整就直接break了） 
 	} 
 }
 
@@ -33,7 +33,7 @@ void adjustHeap(int *a,int i,int len)
 void initHeap(int *a,int len)
 {
 	int i;
-	for(i=(len-1)/2;i>=0;i--){//有孩子的节点的最后位置是(len-1)/2，往前推 
+	for(i=(len-2)/2;i>=0;i--){//有孩子的节点的最后位置是(len-2)/2，往前推 ，（len为元素个数，因为从0下标开始，所以是len-2) 
 		adjustHeap(a,i,len);
 	}
 }
