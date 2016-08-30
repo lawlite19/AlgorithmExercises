@@ -31,8 +31,8 @@ void adjustHeap(int *a,int i,int len)
 //初始建堆 
 void initHeap(int *a,int k)
 {
-	for(int i=(k-2)/2;i>=0;--i){//有孩子的节点的最后位置是(k-2)/2，往前推,因为这里下标从0开始的 
-		adjustHeap(a,i,k);
+	for(int i=(k-2)/2;i>=0;--i){//有孩子的节点的最后位置是(k-2)/2，往前推,（(元素下标-1)/2为其父节点，所以为(k-2)/2） 
+		adjustHeap(a,i,k); 
 	}
 } 
 //求最小的K个数 

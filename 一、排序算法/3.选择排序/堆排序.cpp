@@ -33,7 +33,7 @@ void adjustHeap(int *a,int i,int len)
 void initHeap(int *a,int len)
 {
 	int i;
-	for(i=(len-2)/2;i>=0;i--){//有孩子的节点的最后位置是(len-2)/2，往前推 ，（len为元素个数，因为从0下标开始，所以是len-2) 
+	for(i=(len-2)/2;i>=0;i--){//有孩子的节点的最后位置是(len-2)/2，往前推 ，（(元素下标-1)/2为其父节点，len为元素个数，所以是len-2) 
 		adjustHeap(a,i,len);
 	}
 }
