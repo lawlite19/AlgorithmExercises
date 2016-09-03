@@ -5,6 +5,8 @@
 这里
 1、采用大根堆，
 2、遍历k到n，若是小于堆顶，则将堆顶元素替换掉，重新调整为大顶堆 
+
+0(n*logk)
 */
 #include <iostream>
 using namespace std;
