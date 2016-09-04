@@ -1,45 +1,45 @@
 /*
-ÎÊÌâ£ºÓÃn¸ö2*1µÄĞ¡¾ØĞÎºá×Å»òÊú×Å¸²¸Ç2*nµÄ´ó¾ØĞÎ£¬¹²ÓĞ¶àÉÙÖÖ·½·¨£¿
+é—®é¢˜ï¼šç”¨nä¸ª2*1çš„å°çŸ©å½¢æ¨ªç€æˆ–ç«–ç€è¦†ç›–2*nçš„å¤§çŸ©å½¢ï¼Œå…±æœ‰å¤šå°‘ç§æ–¹æ³•ï¼Ÿ
 
-1¡¢¿¼ÂÇµ±Îªn-1Ê±£¬Êú×Å·ÅÒ»¸ö¼´¿É£¬Îªf(n-1)ÖÖ
-2¡¢µ±Îªn-2Ê±£¬ÎªºÍn-1²»ÖØ¸´£¬ËùÒÔºá×Å·ÅÁ½¸ö¼´¿É£¬Îªf(n-2)ÖÖ£¬
-3¡¢ËùÒÔf(n)=f(n-1)+f(n-2)
+1ã€è€ƒè™‘å½“ä¸ºn-1æ—¶ï¼Œç«–ç€æ”¾ä¸€ä¸ªå³å¯ï¼Œä¸ºf(n-1)ç§
+2ã€å½“ä¸ºn-2æ—¶ï¼Œä¸ºå’Œn-1ä¸é‡å¤ï¼Œæ‰€ä»¥æ¨ªç€æ”¾ä¸¤ä¸ªå³å¯ï¼Œä¸ºf(n-2)ç§ï¼Œ
+3ã€æ‰€ä»¥f(n)=f(n-1)+f(n-2)
 
-ÎªÊ²Ã´n-3²»¼ÌĞøÍÆ£¬ÒòÎªn-3Ê±ÔÙ·Å1¸ö»ò2¸ö¾ÍºÍn-2ºÍn-1ÖØ¸´ÁË 
+ä¸ºä»€ä¹ˆn-3ä¸ç»§ç»­æ¨ï¼Œå› ä¸ºn-3æ—¶å†æ”¾1ä¸ªæˆ–2ä¸ªå°±å’Œn-2å’Œn-1é‡å¤äº† 
 
-¾ØÕó×ª»¯£º 
-Áî£¨f(n),f(n-1)£©=(f(n-1),f(n-2))*|a b| 
-								  |c d|	£¬¸ù¾İ³õÊ¼Öµ¿ÉÒÔÇó³öabcd¾ØÕó
-ËùÒÔ×îÖÕ¿ÉÒÔµÃµ½ (f(n),f(n-1))=	(f(2),f(1))*|a b|^(n-2)
-								  			|c d|	
-¶ø¾ØÕóµÄn´Î·½¼ÆËã¿ÉÒÔÔÚO(logn)Ê±¼ä¸´ÔÓ¶ÈµÃµ½ 
-½«f(1)=1,f(2)=2,f(3)=3,f(4)=5´úÈë¿ÉÒÔ¼ÆËã³ö¾ØÕó 
+çŸ©é˜µè½¬åŒ–ï¼š 
+ä»¤ï¼ˆf(n),f(n-1)ï¼‰=(f(n-1),f(n-2))*|a b| 
+				  |c d|	ï¼Œæ ¹æ®åˆå§‹å€¼å¯ä»¥æ±‚å‡ºabcdçŸ©é˜µ
+æ‰€ä»¥æœ€ç»ˆå¯ä»¥å¾—åˆ° (f(n),f(n-1))=	(f(2),f(1))*|a b|^(n-2)
+				            |c d|	
+è€ŒçŸ©é˜µçš„næ¬¡æ–¹è®¡ç®—å¯ä»¥åœ¨O(logn)æ—¶é—´å¤æ‚åº¦å¾—åˆ° 
+å°†f(1)=1,f(2)=2,f(3)=3,f(4)=5ä»£å…¥å¯ä»¥è®¡ç®—å‡ºçŸ©é˜µ 
 */
 #include <iostream>
 #include <vector>
 using namespace std;
 
-//Á½¸ö¾ØÕóÏà³Ë 
+//ä¸¤ä¸ªçŸ©é˜µç›¸ä¹˜ 
 vector<vector<int> > muliMatrix(vector<vector<int> > m1,vector<vector<int> > m2)
 {
-	vector<vector<int> > result(m1.size());//ÉùÃ÷Ò»¸ö±£´æ½á¹ûµÄ¶şÎ¬ÏòÁ¿ 
-	int res; //ÓÃÓÚ´æ´¢m1ÖĞÃ¿Ò»ĞĞ³ËÒÔm2ÖĞÃ¿Ò»ÁĞµÄ½á¹û£¬×îºó·Åµ½resultÖĞ 
+	vector<vector<int> > result(m1.size());//å£°æ˜ä¸€ä¸ªä¿å­˜ç»“æœçš„äºŒç»´å‘é‡ 
+	int res; //ç”¨äºå­˜å‚¨m1ä¸­æ¯ä¸€è¡Œä¹˜ä»¥m2ä¸­æ¯ä¸€åˆ—çš„ç»“æœï¼Œæœ€åæ”¾åˆ°resultä¸­ 
 	
 	for(int i=0;i<m1.size();++i)
 		for(int j=0;j<m2[0].size();++j){
-			res=0;//Ã¿´Î³õÊÔÎª0 
+			res=0;//æ¯æ¬¡åˆè¯•ä¸º0 
 			for(int k=0;k<m2.size();++k)
-				res+=m1[i][k]*m2[k][j];//¼ÆËã½á¹û 
-			result[i].push_back(res);//·ÅÈë 
+				res+=m1[i][k]*m2[k][j];//è®¡ç®—ç»“æœ 
+			result[i].push_back(res);//æ”¾å…¥ 
 		}
 	
 	return result;
 }
-//¾ØÕóµÄn´Î·½ 
+//çŸ©é˜µçš„næ¬¡æ–¹ 
 vector<vector<int> > matrixPower(vector<vector<int> > base,int n)
 {
-	vector<vector<int> > result(base.size());//ÉùÃ÷Ò»¸ö±£´æ½á¹ûµÄ¶şÎ¬ÏòÁ¿ 
-	for(int i=0;i<base.size();++i)//³õÊ¼Îªµ¥Î»¾ØÕó {1,0,0,1} 
+	vector<vector<int> > result(base.size());//å£°æ˜ä¸€ä¸ªä¿å­˜ç»“æœçš„äºŒç»´å‘é‡ 
+	for(int i=0;i<base.size();++i)//åˆå§‹ä¸ºå•ä½çŸ©é˜µ {1,0,0,1} 
 		for(int j=0;j<base.size();++j){
 			if(i==j)
 				result[i].push_back(1);
@@ -47,21 +47,21 @@ vector<vector<int> > matrixPower(vector<vector<int> > base,int n)
 				result[i].push_back(0);
 		}	
 	
-	vector<vector<int> > tmp(base.size());//ÉùÃ÷Ò»¸öÁÙÊ±¶şÎ¬ÏòÁ¿ 
-	for(int i=0;i<base.size();++i)//½«baseÖĞÊıµÄ¿½±´µ½ÆäÖĞ 
+	vector<vector<int> > tmp(base.size());//å£°æ˜ä¸€ä¸ªä¸´æ—¶äºŒç»´å‘é‡ 
+	for(int i=0;i<base.size();++i)//å°†baseä¸­æ•°çš„æ‹·è´åˆ°å…¶ä¸­ 
 		for(int j=0;j<base.size();++j){
 			tmp[i].push_back(base[i][j]);
 		}	
 	
-	for(;n!=0;n>>=1){//n¶ÔÓ¦µÄ¶ş½øÖÆÒ»Ö±ÓÒÒÆ£¬Ö±µ½Îª0
-		if(n&1)//n&1²»Îª0£¨Óë&ÔËËãÁ½¸ö1²ÅÎª1£©£¬ËµÃ÷nµÄ¶ş½øÖÆ×îºóÎª1
-			result=muliMatrix(result,tmp);//ËùÒÔ¼ÆËã¾ØÕóÏà³Ë 
-		tmp=muliMatrix(tmp,tmp);//Í¬Ê±tmp¾ØÕóÆ½·½£¬Ã¿ÓÒÒÆ1Î»Ôòtmp¿ªÆ½·½ 
+	for(;n!=0;n>>=1){//nå¯¹åº”çš„äºŒè¿›åˆ¶ä¸€ç›´å³ç§»ï¼Œç›´åˆ°ä¸º0
+		if(n&1)//n&1ä¸ä¸º0ï¼ˆä¸&è¿ç®—ä¸¤ä¸ª1æ‰ä¸º1ï¼‰ï¼Œè¯´æ˜nçš„äºŒè¿›åˆ¶æœ€åä¸º1
+			result=muliMatrix(result,tmp);//æ‰€ä»¥è®¡ç®—çŸ©é˜µç›¸ä¹˜ 
+		tmp=muliMatrix(tmp,tmp);//åŒæ—¶tmpçŸ©é˜µå¹³æ–¹ï¼Œæ¯å³ç§»1ä½åˆ™tmpå¼€å¹³æ–¹ 
 	}
 
 	return result;
 }
-//¼ÆËã½á¹û 
+//è®¡ç®—ç»“æœ 
 int allRectCover(int n)
 {
 	if(n<1)
@@ -69,27 +69,27 @@ int allRectCover(int n)
 	if(n==1 || n==2)
 		return n;
 	
-	vector<vector<int> > result(2);//¿ª±ÙresultµÄ¶şÎ¬ÏòÁ¿£¬Ã¿Ò»Î¬´óĞ¡Îª2 £¨×¢ÒâvectorºóÃæÁ½¸ö`> >`Ö®¼äÒªÓĞ¿Õ¸ñ£© 
+	vector<vector<int> > result(2);//å¼€è¾Ÿresultçš„äºŒç»´å‘é‡ï¼Œæ¯ä¸€ç»´å¤§å°ä¸º2 ï¼ˆæ³¨æ„vectoråé¢ä¸¤ä¸ª`> >`ä¹‹é—´è¦æœ‰ç©ºæ ¼ï¼‰ 
 	vector<vector<int> > base(2);
 
-	base[0].push_back(1);//³õÊ¼»¯base¾ØÕóµÄÖµÎª{1,1,1,0} 
+	base[0].push_back(1);//åˆå§‹åŒ–baseçŸ©é˜µçš„å€¼ä¸º{1,1,1,0} 
 	base[0].push_back(1);
 	base[1].push_back(1);
 	base[1].push_back(0);
 
-	result=matrixPower(base,n-2);//ÇóbaseµÄn-2´Î·½ 
+	result=matrixPower(base,n-2);//æ±‚baseçš„n-2æ¬¡æ–¹ 
 
-	return 2*result[0][0]+result[1][0];	//¼ÆËã½á¹û 
+	return 2*result[0][0]+result[1][0];	//è®¡ç®—ç»“æœ 
 }
 
 int main()
 {
-	//ÊäÈë
-	cout<<"ÇëÊäÈënµÄÖµ"<<endl;
+	//è¾“å…¥
+	cout<<"è¯·è¾“å…¥nçš„å€¼"<<endl;
 	int n;
 	cin>>n;
 	
-	cout<<"×Ü·½·¨ÊıÎª£º"<<allRectCover(n)<<endl; 
+	cout<<"æ€»æ–¹æ³•æ•°ä¸ºï¼š"<<allRectCover(n)<<endl; 
 	
 	return 0;
 }
