@@ -73,7 +73,8 @@
 ### 1. 斐波那契问题
  - [矩形覆盖_递归][4.1.1]
  - [矩形覆盖_dp][4.1.2]  ★ 
- - [矩阵覆盖_矩阵转化][4.1.3]  ★★★
+ - [矩阵覆盖_矩阵转化_class实现][4.1.3.1]  ★★★
+ - [矩阵覆盖_矩阵转化_vector实现][4.1.3.2]  ★★★
 - [算法说明][1002]
  - [爬楼梯_递归][4.1.4]
  - [爬楼梯_dp][4.1.5]  ★ 
@@ -129,7 +130,8 @@
 
 [4.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E5%BD%A2%E8%A6%86%E7%9B%96_%E9%80%92%E5%BD%92.cpp
 [4.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E9%98%B5%E8%A6%86%E7%9B%96_dp.cpp
-[4.1.3]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E9%98%B5%E8%A6%86%E7%9B%96_%E7%9F%A9%E9%98%B5%E8%BD%AC%E5%8C%96.cpp
+[4.1.3.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E9%98%B5%E8%A6%86%E7%9B%96_%E7%9F%A9%E9%98%B5%E8%BD%AC%E5%8C%96_class.cpp
+[4.1.3.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E9%98%B5%E8%A6%86%E7%9B%96_%E7%9F%A9%E9%98%B5%E8%BD%AC%E5%8C%96_vector.cpp
 [4.1.4]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%88%AC%E6%A5%BC%E6%A2%AF%E9%97%AE%E9%A2%98_%E9%80%92%E5%BD%92.cpp
 [4.1.5]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/爬楼梯问题_dp.cpp
 [4.1.7]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E5%8F%98%E6%80%81%E8%B7%B3%E5%8F%B0%E9%98%B6_%E9%80%92%E5%BD%92.cpp
