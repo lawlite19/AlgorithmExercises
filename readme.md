@@ -74,7 +74,7 @@
  - [矩形覆盖_递归][4.1.1]
  - [矩形覆盖_dp][4.1.2]  ★ 
  - [矩阵覆盖_矩阵转化][4.1.3]  ★★★
- 
+- [算法说明][]
  - [爬楼梯_递归][4.1.4]
  - [爬楼梯_dp][4.1.5]  ★ 
  
@@ -142,5 +142,5 @@
 [5.2.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%94%E3%80%81%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/2.%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97%E5%8A%9F%E8%83%BD/%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.cpp
 
 [1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Manacher.md
-
+[1002]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Fibonacci.md
 
