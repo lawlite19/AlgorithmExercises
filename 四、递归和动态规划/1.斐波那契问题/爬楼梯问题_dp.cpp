@@ -1,32 +1,32 @@
 /*
-ÎÊÌâ£ºÒ»²½¿ÉÒÔÅÀ1¡¢2»ò3¼¶Ì¨½×£¬ÎÊÅÀn¼¶Ì¨½×ÓÐ¶àÉÙÖÖ×ß·¨
+é—®é¢˜ï¼šä¸€æ­¥å¯ä»¥çˆ¬1ã€2æˆ–3çº§å°é˜¶ï¼Œé—®çˆ¬nçº§å°é˜¶æœ‰å¤šå°‘ç§èµ°æ³•
 
-µÝÍÆÊ½£ºf(n)=f(n-1)+f(n-2)+f(n-3)
-1¡¢¼ÙÉèÅÀµ½n-1¼¶£¬ÏòÉÏÒ»´Î×ßÒ»¼¶¼´¿É£¬ËùÒÔÓÐf(n-1)ÖÖ×ß·¨ 
-2¡¢¼ÙÉèÅÀµ½n-2¼¶£¬ÏòÉÏÒ»´Î×ßÁ½¼¶¼´¿É£¬ËùÒÔÓÐf(n-2)ÖÖ×ß·¨ 
-3¡¢¼ÙÉèÅÀµ½n-3¼¶£¬ÏòÉÏÒ»´Î×ßÈý¼¶¼´¿É£¬ËùÒÔÓÐf(n-3)ÖÖ×ß·¨ 
-ÒÔÉÏÈýÖÖÇé¿öÊÇ²»¶®µÃ£¬ËùÒÔ×Ü×ß·¨ÎªÒÔÉÏÈýÖÖÇé¿öÖ®ºÍ
-ÎªÊ²Ã´°üº¬ÁËn-4µÄÇé¿ö£¬ÒòÎª×î¶àÒ»´Î×ß3¼¶£¬n-4×ß1,2»ò3¼¶·Ö±ð¶ÔÓ¦ÒÔÉÏÈýÖÖÇé¿ö£¬ÒÑ¾­¼ÆËãÔÚÄÚÁË 
+é€’æŽ¨å¼ï¼šf(n)=f(n-1)+f(n-2)+f(n-3)
+1ã€å‡è®¾çˆ¬åˆ°n-1çº§ï¼Œå‘ä¸Šä¸€æ¬¡èµ°ä¸€çº§å³å¯ï¼Œæ‰€ä»¥æœ‰f(n-1)ç§èµ°æ³• 
+2ã€å‡è®¾çˆ¬åˆ°n-2çº§ï¼Œå‘ä¸Šä¸€æ¬¡èµ°ä¸¤çº§å³å¯ï¼Œæ‰€ä»¥æœ‰f(n-2)ç§èµ°æ³• 
+3ã€å‡è®¾çˆ¬åˆ°n-3çº§ï¼Œå‘ä¸Šä¸€æ¬¡èµ°ä¸‰çº§å³å¯ï¼Œæ‰€ä»¥æœ‰f(n-3)ç§èµ°æ³• 
+ä»¥ä¸Šä¸‰ç§æƒ…å†µæ˜¯ä¸æ‡‚å¾—ï¼Œæ‰€ä»¥æ€»èµ°æ³•ä¸ºä»¥ä¸Šä¸‰ç§æƒ…å†µä¹‹å’Œ
+ä¸ºä»€ä¹ˆåŒ…å«äº†n-4çš„æƒ…å†µï¼Œå› ä¸ºæœ€å¤šä¸€æ¬¡èµ°3çº§ï¼Œn-4èµ°1,2æˆ–3çº§åˆ†åˆ«å¯¹åº”ä»¥ä¸Šä¸‰ç§æƒ…å†µï¼Œå·²ç»è®¡ç®—åœ¨å†…äº† 
 
-¶¯Ì¬¹æ»®£¬´Ë·½·¨Ê±¼ä¸´ÔÓ¶ÈO(n) 
+åŠ¨æ€è§„åˆ’ï¼Œæ­¤æ–¹æ³•æ—¶é—´å¤æ‚åº¦O(n) ,è¿˜æœ‰å°±æ˜¯è½¬åŒ–ä¸ºçŸ©é˜µçš„æ–¹æ³•ï¼Œå…·ä½“å‚è€ƒæ–æ³¢é‚£å¥‘çš„ç¬¬ä¸‰é¢˜ï¼Œä¼šæ˜¯3*3çš„çŸ©é˜µ
 */
 #include <iostream>
 using namespace std;
 
-//Ê¹ÓÃÊý×éÍÆËãÏÂÒ»Î» 
+//ä½¿ç”¨æ•°ç»„æŽ¨ç®—ä¸‹ä¸€ä½ 
 int climbStairsWithDP1(int n)
 {
 	int result,i,a[n];
 	a[1]=1;
 	a[2]=2;
 	a[3]=4;
-	for(i=4;i<=n;++i){//´ÓµÚ4¼¶¿ªÊ¼¸ù¾ÝµÝÍÆÊ½¼ÆËã 
+	for(i=4;i<=n;++i){//ä»Žç¬¬4çº§å¼€å§‹æ ¹æ®é€’æŽ¨å¼è®¡ç®— 
 		result=a[i-1]+a[i-2]+a[i-3];
 		a[i]=result;
 	}
 	return result;
 }
-//Í¨¹ý¼¸¸ö±äÁ¿ÍÆËãÏÂÒ»Î» 
+//é€šè¿‡å‡ ä¸ªå˜é‡æŽ¨ç®—ä¸‹ä¸€ä½ 
 int climbStairsWithDP2(int n)
 {
 	int result=4;
@@ -46,13 +46,13 @@ int climbStairsWithDP2(int n)
 
 int main()
 {
-	//ÊäÈë
+	//è¾“å…¥
 	int n;
-	cout<<"ÇëÊäÈëÌ¨½×Êý£º"<<endl;
+	cout<<"è¯·è¾“å…¥å°é˜¶æ•°ï¼š"<<endl;
 	cin>>n;
 	
-	//Êä³ö½á¹û
-	cout<<"¹²ÓÐµÄ×ß·¨£¨Ê¹ÓÃÊý×é£©£º"<<climbStairsWithDP1(n)<<endl; 
-	cout<<"¹²ÓÐµÄ×ß·¨£¨Ê¹ÓÃ¼¸¸ö±äÁ¿£©£º"<<climbStairsWithDP2(n)<<endl; 
+	//è¾“å‡ºç»“æžœ
+	cout<<"å…±æœ‰çš„èµ°æ³•ï¼ˆä½¿ç”¨æ•°ç»„ï¼‰ï¼š"<<climbStairsWithDP1(n)<<endl; 
+	cout<<"å…±æœ‰çš„èµ°æ³•ï¼ˆä½¿ç”¨å‡ ä¸ªå˜é‡ï¼‰ï¼š"<<climbStairsWithDP2(n)<<endl; 
 	return 0;
 }
