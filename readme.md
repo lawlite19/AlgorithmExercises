@@ -68,6 +68,8 @@
  
 ### 3. 最小的k个元素
  - [最小的k个元素_堆][3.3.1]
+ - [最小的k个元素_BFPRT][3.3.2]  ★★★★★
+- [算法说明][1003]
 
 ## 四、 递归和动态规划
 ### 1. 斐波那契问题
@@ -127,6 +129,7 @@
 [3.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%89%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E7%9F%A9%E9%98%B5/1.%E6%9F%A5%E6%89%BE/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E6%9F%A5%E6%89%BE.cpp
 [3.2.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%89%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E7%9F%A9%E9%98%B5/2.%E7%9F%A9%E9%98%B5%E6%93%8D%E4%BD%9C/%E8%BD%AC%E5%9C%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5.cpp
 [3.3.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%89%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E7%9F%A9%E9%98%B5/3.%E6%9C%80%E5%B0%8F%E7%9A%84K%E4%B8%AA%E6%95%B0/%E6%9C%80%E5%B0%8F%E7%9A%84K%E4%B8%AA%E6%95%B0_%E5%A0%86.cpp
+[3.3.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%B8%89%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E7%9F%A9%E9%98%B5/3.%E6%9C%80%E5%B0%8F%E7%9A%84K%E4%B8%AA%E6%95%B0/%E6%9C%80%E5%B0%8F%E7%9A%84K%E4%B8%AA%E6%95%B0_BFPRT%E7%AE%97%E6%B3%95.cpp
 
 [4.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E5%BD%A2%E8%A6%86%E7%9B%96_%E9%80%92%E5%BD%92.cpp
 [4.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E7%9F%A9%E9%98%B5%E8%A6%86%E7%9B%96_dp.cpp
@@ -145,4 +148,4 @@
 
 [1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Manacher.md
 [1002]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/Fibonacci.md
-
+[1003]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E9%9B%B6%E3%80%81%E7%AE%97%E6%B3%95%E8%AF%B4%E6%98%8E/BFPRT.md
