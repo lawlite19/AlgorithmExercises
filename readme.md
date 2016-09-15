@@ -87,6 +87,9 @@
 ### 2. 最大子数组和相关问题
  - [最大子数组和][4.2.1]  ★ 
  
+### 3. 最长递增子序列相关问题
+ - [最长递增子序列_一般dp][4.3.1]
+ - 
 ## 五、 栈和队列
 ### 1. getMin功能栈
  - [getMin功能栈_方案1][5.1.1]
@@ -141,6 +144,8 @@
 [4.1.8]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E5%8F%98%E6%80%81%E8%B7%B3%E5%8F%B0%E9%98%B6_%E8%AE%A1%E7%AE%97.cpp
 
 [4.2.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/2.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C.cpp
+
+[4.3.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97_%E4%B8%80%E8%88%ACdp.cpp
 
 [5.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%94%E3%80%81%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/1.getMin%E5%8A%9F%E8%83%BD%E6%A0%88/getMin%E5%8A%9F%E8%83%BD%E6%A0%88_%E6%96%B9%E6%A1%881.cpp
 [5.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%94%E3%80%81%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/1.getMin%E5%8A%9F%E8%83%BD%E6%A0%88/getMin%E5%8A%9F%E8%83%BD%E6%A0%88_%E6%96%B9%E6%A1%882.cpp
