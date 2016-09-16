@@ -90,6 +90,8 @@
 ### 3. 最长递增子序列相关问题
  - [最长递增子序列_一般dp][4.3.1]
  - [最长递增子序列_dp优化][4.3.2] ★★   
+ - [摞数组问题(俄国沙皇问题)_纯代码实现][4.3.3] ★★★★
+ - [摞数组问题（俄国沙皇问题）_借助stl][4.3.4] ★★★★
  
 ## 五、 栈和队列
 ### 1. getMin功能栈
@@ -148,6 +150,9 @@
 
 [4.3.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97_%E4%B8%80%E8%88%ACdp.cpp
 [4.3.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97_dp%E4%BC%98%E5%8C%96.cpp
+[4.3.3]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%91%9E%E6%95%B0%E7%BB%84%E9%97%AE%E9%A2%98_%E8%87%AA%E5%AE%9A%E4%B9%89class.cpp
+[4.3.4]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%91%9E%E6%95%B0%E7%BB%84%E9%97%AE%E9%A2%98_%E5%80%9F%E5%8A%A9stl.cpp
+
 
 [5.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%94%E3%80%81%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/1.getMin%E5%8A%9F%E8%83%BD%E6%A0%88/getMin%E5%8A%9F%E8%83%BD%E6%A0%88_%E6%96%B9%E6%A1%881.cpp
 [5.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E4%BA%94%E3%80%81%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/1.getMin%E5%8A%9F%E8%83%BD%E6%A0%88/getMin%E5%8A%9F%E8%83%BD%E6%A0%88_%E6%96%B9%E6%A1%882.cpp
