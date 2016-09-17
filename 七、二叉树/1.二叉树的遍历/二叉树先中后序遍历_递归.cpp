@@ -1,16 +1,16 @@
 /*
-ÎÊÌâ£º¶ş²æÊ÷µÄÏÈ¡¢ÖĞ¡¢ºóĞòµİ¹é±éÀú 
+é—®é¢˜ï¼šäºŒå‰æ ‘çš„å…ˆã€ä¸­ã€ååºé€’å½’éå† 
 */ 
 #include <stdio.h>
 #include <stdlib.h>
 using namespace std;
-typedef struct Node{//Ê÷µÄ½á¹¹Ìå¶¨Òå 
+typedef struct Node{//æ ‘çš„ç»“æ„ä½“å®šä¹‰ 
 	int value;
 	Node *left;
 	Node *right;
-}BiNode,*BiTree; //*BiTree±íÊ¾Ö¸Ïò½á¹¹ÌåµÄÖ¸Õë£¬BiNode±íÊ¾Õâ¸ö½á¹¹Ìå 
+}BiNode,*BiTree; //*BiTreeè¡¨ç¤ºæŒ‡å‘ç»“æ„ä½“çš„æŒ‡é’ˆï¼ŒBiNodeè¡¨ç¤ºè¿™ä¸ªç»“æ„ä½“ 
 
-//ÏÈĞò±éÀú 
+//å…ˆåºéå† 
 void preOrderRecursion(BiTree root){
 	if(root){
 		printf("%d ",root->value);
@@ -19,7 +19,7 @@ void preOrderRecursion(BiTree root){
 	}
 }
 
-//ÖĞĞò±éÀú
+//ä¸­åºéå†
 void inOrderRecursion(BiTree root)
 {
 	if(root){
@@ -28,7 +28,7 @@ void inOrderRecursion(BiTree root)
 		inOrderRecursion(root->right);
 	}
 }
-//ºóĞø±éÀú
+//åç»­éå†
 void posOrderRecursion(BiTree root)
 {
 	if(root){
@@ -48,19 +48,19 @@ void posOrderRecursion(BiTree root)
       6  7 	
 */
 int i=-1;
-//ÏÈĞòµİ¹é½¨Á¢Ê÷£¬½¨Á¢µÄÊ÷ÈçÉÏÍ¼ 
-void createBiTree(BiTree *root)//*È¡³ö 
+//å…ˆåºé€’å½’å»ºç«‹æ ‘ï¼Œå»ºç«‹çš„æ ‘å¦‚ä¸Šå›¾ 
+void createBiTree(BiTree *root)//*å–å‡º 
 {
 	int a[]={1,2,4,0,6,0,0,5,7,0,0,0,3,0,0};
 	++i;
-	if(a[i]==0)//Îª´ú±íµ±Ç°½ÚµãÎª¿Õ 
+	if(a[i]==0)//ä¸ºä»£è¡¨å½“å‰èŠ‚ç‚¹ä¸ºç©º 
 		*root=NULL;
 	else{
-		*root =(BiNode *)malloc(sizeof(BiNode)); //ÉêÇëÒ»¸ö½Úµã 
-		if(!(*root))//Ã»ÉêÇëµ½¾Í·µ»Ø 
+		*root =(BiNode *)malloc(sizeof(BiNode)); //ç”³è¯·ä¸€ä¸ªèŠ‚ç‚¹ 
+		if(!(*root))//æ²¡ç”³è¯·åˆ°å°±è¿”å› 
 			return; 
-		(*root)->value=a[i];//ÉèÖÃÖµ 
-		createBiTree(&(*root)->left);//µİ¹é 
+		(*root)->value=a[i];//è®¾ç½®å€¼ 
+		createBiTree(&(*root)->left);//é€’å½’ 
 		createBiTree(&(*root)->right);
 	}
 } 
@@ -69,12 +69,12 @@ void createBiTree(BiTree *root)//*È¡³ö
 int main()
 {
 	BiTree root;
-	createBiTree(&root);//&È¡µØÖ· 
-	printf("ÏÈĞò±éÀú½á¹û£º");
+	createBiTree(&root);//&å–åœ°å€ 
+	printf("å…ˆåºéå†ç»“æœï¼š");
 	preOrderRecursion(root);
-	printf("\nÖĞĞò±éÀú½á¹û£º");
+	printf("\nä¸­åºéå†ç»“æœï¼š");
 	inOrderRecursion(root); 
-	printf("\nºóĞò±éÀú½á¹û£º");
+	printf("\nååºéå†ç»“æœï¼š");
 	posOrderRecursion(root); 
 	return 0;
 } 
