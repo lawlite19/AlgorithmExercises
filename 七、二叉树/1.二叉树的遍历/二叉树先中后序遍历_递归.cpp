@@ -39,6 +39,7 @@ void posOrderRecursion(BiTree root)
 } 
 
 /*
+``` 
 		1
 	  .	  .
 	2		3
@@ -46,6 +47,7 @@ void posOrderRecursion(BiTree root)
 4      5	     
  .    . 
   6  8 	
+```
 */
 int i=-1;
 //先序递归建立树，建立的树如上图 
