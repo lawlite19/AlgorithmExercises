@@ -89,6 +89,7 @@
 
 ### 2. 最大子序列和相关问题
  - [最大子序列和][4.2.1]  ★ 
+ - [两个不相容子序列最大和][4.2.2] ★★   
  
 ### 3. 最长递增子序列相关问题
  - [最长递增子序列_一般dp][4.3.1]
@@ -159,6 +160,8 @@
 [4.1.8]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/1.%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E9%97%AE%E9%A2%98/%E5%8F%98%E6%80%81%E8%B7%B3%E5%8F%B0%E9%98%B6_%E8%AE%A1%E7%AE%97.cpp
 
 [4.2.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/2.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C.cpp
+[4.2.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/2.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E5%92%8C%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E4%B8%A4%E4%B8%AA%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E5%92%8C.cpp
+
 
 [4.3.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97_%E4%B8%80%E8%88%ACdp.cpp
 [4.3.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/%E5%9B%9B%E3%80%81%E9%80%92%E5%BD%92%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/3.%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97_dp%E4%BC%98%E5%8C%96.cpp
