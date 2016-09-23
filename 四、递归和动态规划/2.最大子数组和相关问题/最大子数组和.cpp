@@ -1,19 +1,19 @@
 /*
-问题：求一个序列的最大子序列和 
+问题：求一个数组的最大子数组和 
 
-1、sum为当前一个子序列的和，max存储最大值
+1、sum为当前一个子数组的和，max存储最大值
 2、遍历数组，累加到sum上，与max相比，若大于max，更新max值。若是sum<0，则重置sum=0 
 
-为什么这种计算是正确的，假设一个子序列是最大的，则其任意前缀必不为负数，因为要是负数还不如不要这个前缀，这样数更大 
+为什么这种计算是正确的，假设一个子数组是最大的，则其任意前缀必不为负数，因为要是负数还不如不要这个前缀，这样数更大 
 */
 #include <iostream>
-using namespace std;
+using namespace std;	
 
 #define INT_MIN (-2147483647 - 1) 
 
 int maxSubSum(int *a,int len)
 {
-	int sum=0;//存储当前计算的序列和 
+	int sum=0;//存储当前计算的数组和 
 	int max=INT_MIN;//max开始取很小的值 
 	for(int i=0;i<len;++i){//遍历数组 
 		sum+=a[i];//求和 
