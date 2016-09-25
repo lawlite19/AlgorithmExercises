@@ -59,6 +59,11 @@
 ### 9. 整数字符串转整数值
  - [整数字符串转整数值][2.9.1] ★★   
 
+### 10. 字符串匹配问题
+ - [字符串匹配_KMP][2.10.1]  ★★★★★
+- [算法说明][1004]
+ 
+
 ## 三、 数组和矩阵
 ### 1. 二维数组查找  
  - [二维数组查找][3.1.1]
@@ -148,6 +153,8 @@
 [2.7.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/7.字符串中数字串求和/字符串中数字串求和.cpp
 [2.8.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/8.去除字符串中连续K个0子串/去除字符串中连续K个0子串.cpp
 [2.9.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/9.整数字符串转为整数值/整数字符串转为整数值.cpp
+[2.10.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/10.字符串匹配问题/字符串匹配_KMP.cpp
+
 
 [3.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/1.查找/二维数组的查找.cpp
 [3.2.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/2.矩阵操作/转圈打印矩阵.cpp
@@ -192,3 +199,4 @@
 [1001]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/Manacher.md
 [1002]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/Fibonacci.md
 [1003]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/BFPRT.md
+[1004]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/KMP.md
