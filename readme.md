@@ -82,6 +82,9 @@
 ### 5.非负数组和为K的最长子数组
  - [非负数组和为K的最长子数组_双指针][3.5.1]  ★★★
 
+### 8.次数出现大于N/K的数
+ - [次数出现大于1/2的数][3.8.1]
+
 ## 四、 递归和动态规划
 ### 1. 斐波那契问题
  - [矩形覆盖_递归][4.1.1]
@@ -162,6 +165,8 @@
 [3.3.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/3.最小的K个数/最小的K个数_BFPRT算法.cpp
 [3.4.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/4.中间数/中间数_辅助数组.cpp
 [3.5.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/5.非负数组和为K的最长子数组/非负数组和为K的最长子数组_双指针.cpp
+
+[3.8.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/8.数组中出现次数大于N除以K的数/出现次数大于一半的数.cpp
 
 [4.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/1.斐波那契问题/矩形覆盖_递归.cpp
 [4.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/1.斐波那契问题/矩阵覆盖_dp.cpp
