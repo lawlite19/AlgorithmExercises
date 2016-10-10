@@ -91,6 +91,7 @@
 
 ### 10.两个有序数组的中位数
  - [两个有序数组的中位数_分治][3.10.1]★★★★
+- [算法说明][1005]
 
 ## 四、 递归和动态规划
 ### 1. 斐波那契问题
@@ -217,3 +218,4 @@
 [1002]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/Fibonacci.md
 [1003]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/BFPRT.md
 [1004]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/KMP.md
+[1005]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/Median of Two Sorted Arrays.md
