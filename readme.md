@@ -218,4 +218,4 @@
 [1002]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/Fibonacci.md
 [1003]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/BFPRT.md
 [1004]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/KMP.md
-[1005]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/Median of Two Sorted Arrays.md
+[1005]:https://github.com/lawlite19/AlgorithmExercises/blob/master/零、算法说明/MedianOfTwoSortedArrays.md
