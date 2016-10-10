@@ -89,6 +89,9 @@
 ### 9.逆序对
  - [逆序对数_分治归并][3.9.1]★ 
 
+### 10.两个有序数组的中位数
+ - [两个有序数组的中位数_分治][3.10.1]★★★★
+
 ## 四、 递归和动态规划
 ### 1. 斐波那契问题
  - [矩形覆盖_递归][4.1.1]
@@ -174,6 +177,8 @@
 [3.8.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/8.数组中出现次数大于N除以K的数/出现次数大于N除以K的数.cpp
 
 [3.9.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/9.逆序对/逆序对_分治(归并).cpp
+
+[3.10.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/10.两个有序数组的中位数/两个有序数组的中位数_分治.cpp
 
 [4.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/1.斐波那契问题/矩形覆盖_递归.cpp
 [4.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/1.斐波那契问题/矩阵覆盖_dp.cpp
