@@ -62,7 +62,11 @@
 ### 10. 字符串匹配问题
  - [字符串匹配_KMP][2.10.1]  ★★★★★
    - [算法说明][1004]
- 
+
+### 11. 回文子序列问题
+- [最长回文子序列][2.11.1]
+- [回文子序列个数][2.11.2]
+
 
 ## 三、 数组和矩阵
 ### 1. 二维数组查找  
@@ -165,7 +169,8 @@
 [2.8.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/8.去除字符串中连续K个0子串/去除字符串中连续K个0子串.cpp
 [2.9.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/9.整数字符串转为整数值/整数字符串转为整数值.cpp
 [2.10.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/10.字符串匹配问题/字符串匹配_KMP.cpp
-
+[2.11.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/11.回文子序列/最长回文子序列.cpp
+[2.11.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/二、字符串/11.回文子序列/回文子序列个数.cpp
 
 [3.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/1.查找/二维数组的查找.cpp
 [3.2.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/三、数组和矩阵/2.矩阵操作/转圈打印矩阵.cpp
