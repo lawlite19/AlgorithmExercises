@@ -141,6 +141,9 @@
 - [擦除数字][9.1.2]
 - [数组跳跃][9.1.3]
 
+## 十、排列组合
+- [3色球排列组合个数][10.1.1]
+
 
 [1.1.1]:https://github.com/lawlite19/AlgorithmExerises/blob/master/一、排序算法/1.交换排序/冒泡排序.cpp
 [1.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/一、排序算法/1.交换排序/冒泡排序改进1.cpp
@@ -226,6 +229,9 @@
 [9.1.1]: https://github.com/lawlite19/AlgorithmExercises/tree/master/九、笔试算法/快乐数.cpp
 [9.1.2]: https://github.com/lawlite19/AlgorithmExercises/tree/master/九、笔试算法/擦出数字.cpp
 [9.1.3]: https://github.com/lawlite19/AlgorithmExercises/tree/master/九、笔试算法/数组跳跃.cpp
+
+
+[10.1.1]: https://github.com/lawlite19/AlgorithmExercises/tree/master/十、排列组合/3色球排列组合个数.cpp
 
 
 
