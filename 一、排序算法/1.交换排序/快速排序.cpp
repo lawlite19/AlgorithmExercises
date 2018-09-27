@@ -8,14 +8,14 @@
 #include <iostream>
 using namespace std;
 
-/* 
+
 void swap(int *a,int *b)
 {
 	int temp=*a;
 	*a=*b;
 	*b=temp; 
 } 
-*/ 
+
 void quickSort(int *a,int left,int right)
 {
 	if(left>=right)//递归出口 
@@ -38,16 +38,36 @@ void quickSort(int *a,int left,int right)
 	quickSort(a,i+1,right);
 }
 
+int partition(int *a, int left, int right){
+	int p = left;
+	for(int i=left; i<=right; i++){
+		if(a[i]<a[left]){
+			p++;
+			swap(a+p, a+i);
+		}
+	}
+	swap(a+left, a+p);
+	return p;
+}
+
+void quickSort2(int* a, int left, int right){
+	if(left>=right)
+		return;
+	int p = partition(a, left, right);
+	quickSort2(a, left, p-1);
+	quickSort2(a, p+1, right);
+}
+
 int main()
 {
 	int n=0,data,a[100],i;
 	//输入
-	cout<<"请输入待排序数字（以-1结尾）"<<endl;
+	//cout<<"请输入待排序数字，以-1结尾"<<endl;
 	while(cin>>data&&data!=-1){
 		a[n++]=data;
 	} 
 	//排序
-	quickSort(a,0,n-1);//n个元素，末位为a[n-1] 
+	quickSort2(a,0,n-1);//n个元素，末位为a[n-1]
 	//输出
 	cout<<"n="<<n<<endl;
 	for(i=0;i<n;i++){
