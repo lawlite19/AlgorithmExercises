@@ -62,7 +62,7 @@ int main()
 {
 	int n=0,data,a[100],i;
 	//ÊäÈë
-	//cout<<"ÇëÊäÈë´ıÅÅĞòÊı×Ö£¬ÒÔ-1½áÎ²"<<endl;
+	cout<<"ÇëÊäÈë´ıÅÅĞòÊı×Ö£¬ÒÔ-1½áÎ²"<<endl;
 	while(cin>>data&&data!=-1){
 		a[n++]=data;
 	} 
