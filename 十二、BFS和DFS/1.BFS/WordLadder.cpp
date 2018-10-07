@@ -11,7 +11,12 @@
 #include <queue>
 #include <unordered_set>
 using namespace std;
-
+/**
+ * 找与当前word差一个字符的word, 并将其放到队列中
+ * @param word
+ * @param wordSet
+ * @param visited
+ */
 void addNextWords(string word, unordered_set<string>& wordSet, queue<string>& visited){
     for(int i=0; i<word.length(); ++i){
         char letter = word[i];
@@ -26,6 +31,13 @@ void addNextWords(string word, unordered_set<string>& wordSet, queue<string>& vi
     }
 }
 
+/**
+ * BFS, 遍历队列
+ * @param beginWord
+ * @param endWord
+ * @param wordSet
+ * @return
+ */
 int ladderLength(string beginWord, string endWord, unordered_set<string> &wordSet){
     queue<string> visited;
     addNextWords(beginWord, wordSet, visited);
