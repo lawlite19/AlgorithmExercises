@@ -133,7 +133,8 @@
  - [先、中、后序遍历_递归][7.1.1]
  - [先、中、后序遍历_非递归][7.1.2] ★★   
  - [层次遍历][7.1.3]
- - [树的最大最小深度][7.1.4]
+ ### 2. 深度
+ - [树的最大最小深度][7.2.1]
  
 ## 八、位运算
  - [出现奇数次的数][8.1.1]
@@ -229,7 +230,7 @@
 [7.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/七、二叉树/1.二叉树的遍历/二叉树先中后序遍历_递归.cpp
 [7.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/七、二叉树/1.二叉树的遍历/二叉树先中后序遍历_非递归.cpp
 [7.1.3]:https://github.com/lawlite19/AlgorithmExercises/blob/master/七、二叉树/1.二叉树的遍历/层次遍历.cpp
-[7.1.4]:https://github.com/lawlite19/AlgorithmExercises/blob/master/七、二叉树/2.二叉树深度/二叉树的最大最小深度.cpp
+
 
 [8.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/八、位运算/1.出现奇数次的数/出现奇数次的数.cpp
 
