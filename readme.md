@@ -120,6 +120,9 @@
  - [摞数组问题(俄国沙皇问题)_纯代码实现][4.3.3] ★★★★
  - [摞数组问题（俄国沙皇问题）_借助stl][4.3.4] ★★★★
  
+### 4. 两点方格路径数
+- [两点最短路径数][4.4.1] 
+ 
 ## 五、 栈和队列
 ### 1. getMin功能栈
  - [getMin功能栈_方案1][5.1.1]
@@ -226,6 +229,7 @@
 [4.3.3]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/3.最长递增子序列相关问题/摞数组问题_自定义class.cpp
 [4.3.4]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/3.最长递增子序列相关问题/摞数组问题_借助stl.cpp
 
+[4.4.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/4.两点方格路径数/两点最短路径数.cpp
 
 [5.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/五、栈和队列/1.getMin功能栈/getMin功能栈_方案1.cpp
 [5.1.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/五、栈和队列/1.getMin功能栈/getMin功能栈_方案2.cpp
