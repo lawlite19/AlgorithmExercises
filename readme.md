@@ -231,7 +231,7 @@
 [4.3.4]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/3.最长递增子序列相关问题/摞数组问题_借助stl.cpp
 
 [4.4.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/4.两点方格路径数/两点最短路径数.cpp
-[4.4.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/4.两点方格路径数/两点最短路径数变形.cpp
+[4.4.2]:https://github.com/lawlite19/AlgorithmExercises/blob/master/四、递归和动态规划/4.两点方格路径数/两点最短路径数变形.cpp
 
 
 [5.1.1]:https://github.com/lawlite19/AlgorithmExercises/blob/master/五、栈和队列/1.getMin功能栈/getMin功能栈_方案1.cpp
